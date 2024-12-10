@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+          
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div>
+            <h1>About Me</h1>
+            <p>Hello! I'm Nikhil,pursuing engineering in Dayanand Sagar Academy of Technology and management.</p>
+            <button class="btn-download" onclick="downloadCV()">Download CV</button>
+        </div>
+    </section>
+
+    <section id="education">
+        <div>
+            <h1>Education</h1>
+            <p>School:Sri Sathya Sai Saraswathi Boys High School</p>
+            <p>College:Shree Guru Nagalingeshwar PU College</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div>
+            <h1>Skills</h1>
+            <p>Java programming,SQL</p>
+        </div>
+    </section>
+
+   
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div id="project-cards">
+            <div class="project-card" onclick="window.open('https://github.com/KasRoudra/simplecalculator', '_blank')">
+               Calculator
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/ayushiee/nextflix', '_blank')">
+              Netflix
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/ulearnpro/ulearn', '_blank')">
+
+                LMS
+            </div>
+        </div>
+        <button class="btn-view-more" id="view-more-button" onclick="viewMoreProjects()">View More</button>
+    </section>
+
+   <script src="index.js"></script>>
+</body>
+</html>
